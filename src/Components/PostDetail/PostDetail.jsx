@@ -6,7 +6,7 @@ const PostDetail = () => {
     console.log(postD);
     return (
         <div>
-            <h2>{postD.id}</h2>
+            <h2>Number of post: {postD.id}</h2>
            <p>{postD.body}</p>
         </div>
     );

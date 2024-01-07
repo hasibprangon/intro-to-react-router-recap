@@ -8,6 +8,7 @@ const Post = ({post}) => {
         <div className='post'>
             <h2>{title}</h2>
             <p> <Link to={`/post/${id}`}>See more</Link> </p>
+            <Link to={`/post/${id}`}><button>Show Detail</button></Link>
         </div>
     );
 };
